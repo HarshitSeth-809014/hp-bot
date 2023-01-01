@@ -5,7 +5,12 @@ import Information
 
 intents = nextcord.Intents.default()
 intents.message_content = True
-client = commands.Bot(command_prefix='/hp ', intents=intents)
+client = commands.Bot(command_prefix='/', intents=intents)
+
+
+@client.slash_command(description="test")
+async def test(interaction: nextcord.Interaction, name):
+    await interaction.response.send_message(f'hi {name}')
 
 
 @client.event
@@ -13,33 +18,39 @@ async def on_ready():
     print(f'Logged in as {client.user.name}!')
 
 
-@client.command()
-async def character(message, *, key):
-    await Information.any_character_information(message, key)
+@client.slash_command(description="Will give you information about any character present in Harry Potter "
+                                  "Novel Series")
+async def character(interaction: nextcord.Interaction, name):
+    await Information.any_character_information(interaction, name)
+
+
+@client.slash_command(description="Will give you information about any Professor teaching at Hogwarts in "
+                                  "Harry Potter Novel Series")
+async def professor(message: nextcord.Interaction, name):
+    await Information.professors_character_information(message, name)
+
+
+@client.slash_command(description="Will give you information about any Student studying at Hogwarts in "
+                                  "Harry Potter Novel Series")
+async def student(message: nextcord.Interaction, name):
+    await Information.students_character_information(message, name)
+
+
+@client.slash_command(description="Will give you information about any Spell used in "
+                                  "Harry Potter Novel Series")
+async def spell(message: nextcord.Interaction, name):
+    await Information.spell_information(message, name)
+
+
+@client.slash_command(description="Will give you information about any Wand present in "
+                                  "Harry Potter Novel Series")
+async def wand(message: nextcord.Interaction, name):
+    await Information.wand_information(message, name)
 
 
 @client.command()
-async def professor(message, *, key):
-    await Information.professors_character_information(message, key)
+async def broomstick(message: nextcord.Interaction, name):
+    await Information.broomsticks_information(message, name)
 
-
-@client.command()
-async def student(message, *, key):
-    await Information.students_character_information(message, key)
-
-
-@client.command()
-async def spell(message, *, key):
-    await Information.spell_information(message, key)
-
-
-@client.command()
-async def wand(message, *, key):
-    await Information.wand_information(message, key)
-
-
-@client.command()
-async def broomstick(message, *, key):
-    await Information.broomsticks_information(message, key)
 
 client.run("MTA1Nzk5NTkyMzYxNzIyMjY5Ng.Gpj5rT.uaNy8GMoqbaX2LDjW-zXbIFQQykUnzFVIZVMjw")

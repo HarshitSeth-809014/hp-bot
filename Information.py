@@ -31,7 +31,8 @@ async def create_embed(api, message, check):
             if val['image']:
                 embed.set_thumbnail(url=val['image'])
 
-            await message.send(embed=embed)
+            await message.response.send_message(embed=embed)
+    await message.response.send_message("Name not found!!!")
 
 
 async def wand_information(message, wand):
