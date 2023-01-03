@@ -1,0 +1,403 @@
+[
+  {
+    "owner": "Albus Dumbledore",
+    "wood": "Elder",
+    "length": "15\"",
+    "core": "Thestral tail hair",
+    "flexibility": "",
+    "note": "The Elder Wand, one of the Deathly Hallows. Also known as the Deathstick and the Wand of Destiny.",
+    "image": "https://static.wikia.nocookie.net/harrypotter/images/c/c9/The_Elder_Wand.JPG/"
+  },
+  {
+    "owner": "Altheda (fictional character)",
+    "wood": "",
+    "length": "",
+    "core": "",
+    "flexibility": "",
+    "note": "She had a wand that was stolen by an evil sorcerer in The Fountain of Fair Fortune from The Tales of Beedle the Bard.",
+    "image": ""
+  },
+  {
+    "owner": "Antioch Peverall",
+    "wood": "",
+    "length": "",
+    "core": "",
+    "flexibility": "",
+    "note": "Antioch's first wand which he used to make a bridge before meeting Death.",
+    "image": ""
+  },
+  {
+    "owner": "Bellatrix Lestrange",
+    "wood": "Walnut",
+    "length": "12.75\"",
+    "core": "Dragon heartstring",
+    "flexibility": "Unyeilding",
+    "note": "This wand was described as \"unyielding;\" passed into the possession of Hermione Granger after the Skirmish at Malfoy Manor in 1998.",
+    "image": "https://static.wikia.nocookie.net/harrypotter/images/c/c3/Bellatrix_lestrange_wand.jpg"
+  },
+  {
+    "owner": "Sir Cadogan",
+    "wood": "Blackthorn",
+    "length": "9\"",
+    "core": "Troll whisker",
+    "flexibility": "Combustible",
+    "note": "This wand was broken during Sir Cadogan's encounter with the Wyvern of Wye. However, Cadogan still tried to combat the beast even with a broken wand, which led to his victory when the wand pierced the Wyvern's tongue and ignited its stomach fumes.",
+    "image": "https://static.wikia.nocookie.net/harrypotter/images/9/98/Troll-whiskerWand.png"
+  },
+  {
+    "owner": "Cedric Diggory",
+    "wood": "Ash",
+    "length": "12.25\"",
+    "core": "Unicorn hair",
+    "flexibility": "Pleasantly springy",
+    "note": "This wand was \"pleasantly springy\"; hair from particularly fine male unicorn (seventeen hands high), which nearly gored Mr Ollivander with its horn after he plucked its tail hair.",
+    "image": "https://static.wikia.nocookie.net/harrypotter/images/d/de/Cedricdiggorywandnn8202.jpg"
+  },
+  {
+    "owner": "Celestina Warbeck",
+    "wood": "Larch",
+    "length": "10.5\"",
+    "core": "Phoenix feather",
+    "flexibility": "Flexible",
+    "note": "Celestina Warbeck's wand was mentioned in the lyrics of the title track of her best-selling album, You Stole My Cauldron but You Can't Have my Heart.",
+    "image": ""
+  },{
+    "owner": "Dolores Umbridge",
+    "wood": "Birch",
+    "length": "8\"",
+    "core": "Dragon heartstring",
+    "flexibility": "",
+    "note": "\tThis wand is described as \"unusually short;\" broken by a centaur's hoof in June 1996 in the Forbidden Forest.",
+    "image": "https://static.wikia.nocookie.net/harrypotter/images/a/a8/Dolores_umbridge_wand.jpg/"
+  },
+  {
+    "owner": "Draco Malfoy",
+    "wood": "Hawthorn",
+    "length": "10\"",
+    "core": "Unicorn hair",
+    "flexibility": "Reasonably springy",
+    "note": "This wand passed into the possession of Harry Potter after the Skirmish at Malfoy Manor in 1998 until Harry came into possession of the Elder Wand and mended his first wand.",
+    "image": "https://static.wikia.nocookie.net/harrypotter/images/f/f0/Draco_Malfoy_Wand.jpg"
+  },{
+    "owner": "Fleur Delacour",
+    "wood": "Rosewood",
+    "length": "9.5\"",
+    "core": "Veela hair",
+    "flexibility": "Inflexible",
+    "note": "In this wand the core is a hair from Fleur's grandmother, who was a Veela.",
+    "image": "https://static.wikia.nocookie.net/harrypotter/images/1/12/FleurDelacourWandNN8246.jpg/"
+  },{
+    "owner": "Garrick Ollivander",
+    "wood": "Hornbeam",
+    "length": "12.75\"",
+    "core": "",
+    "flexibility": "",
+    "note": "",
+    "image": ""
+  },{
+    "owner": "Harry Potter",
+    "wood": "Holly",
+    "length": "11\"",
+    "core": "Phoenix feather",
+    "flexibility": "Nice and supple",
+    "note": "\"Brother\" to Voldemort's wand — the core tail feathers are both from Fawkes; broken in December 1997 while fleeing from Godric's Hollow; repaired with the Elder Wand in May 1998.",
+    "image": "https://static.wikia.nocookie.net/harrypotter/images/c/ca/HarryPotterWandNN8415.jpg"
+  },{
+    "owner": "Hermoine Granger",
+    "wood": "Vine",
+    "length": "10.75\"",
+    "core": "Dragon heartstring",
+    "flexibility": "",
+    "note": "This wand was confiscated when the trio was captured by Snatchers in 1998.",
+    "image": "https://static.wikia.nocookie.net/harrypotter/images/c/c6/HermioneGrangerWandNN8411.jpg"
+  },{
+    "owner": "Horace Slughorn",
+    "wood": "Cedar",
+    "length": "10.25\"",
+    "core": "Dragon heartstring",
+    "flexibility": "Fairly flexible",
+    "note": "",
+    "image": "https://static.wikia.nocookie.net/harrypotter/images/f/fb/ProfHoraceSlughornWandNN8294.jpg/"
+  },{
+    "owner": "James Potter",
+    "wood": "Mahogany",
+    "length": "11\"",
+    "core": "",
+    "flexibility": "Pliable",
+    "note": "This wand was \"excellent for transfiguration.\"",
+    "image": "https://static.wikia.nocookie.net/harrypotter/images/a/a5/JamesPotterWand_NN8206.jpg/"
+  },{
+    "owner": "Lily Evans",
+    "wood": "Willow",
+    "length": "11\"",
+    "core": "",
+    "flexibility": "Swishy",
+    "note": "This wand was \"nice for Charm work.\"",
+    "image": ""
+  },{
+    "owner": "Lucius Malfoy",
+    "wood": "Elm",
+    "length": "18\"",
+    "core": "Dragon heartstring",
+    "flexibility": "",
+    "note": "This wand was kept in a snake-headed walking stick that Lucius carried; \"borrowed\" by Lord Voldemort and destroyed by Harry Potter's wand during the Battle of the Seven Potters in 1997.",
+    "image": "https://static.wikia.nocookie.net/harrypotter/images/5/59/Lucius_Malfoy_first_wand.jpg/"
+  },{
+    "owner": "Mary Cattermole",
+    "wood": "Cherry",
+    "length": "8.75\"",
+    "core": "Unicorn hair",
+    "flexibility": "",
+    "note": "This wand was confiscated by the Muggle-Born Registration Commission in 1997.",
+    "image": ""
+  },{
+    "owner": "Merlin",
+    "wood": "English Oak",
+    "length": "",
+    "core": "",
+    "flexibility": "",
+    "note": "",
+    "image": ""
+  },{
+    "owner": "Minerva McGonagall",
+    "wood": "Fir",
+    "length": "9.5\"",
+    "core": "Dragon heartstring",
+    "flexibility": "Stiff",
+    "note": "This wand was most likely purchased from Ollivanders when she was eleven almost twelve.",
+    "image": "https://static.wikia.nocookie.net/harrypotter/images/f/f4/ProfMinervaMcGonagallwandNN8290.jpg/"
+  },{
+    "owner": "Neville Longbottom",
+    "wood": "Cherry",
+    "length": "",
+    "core": "Unicorn hair",
+    "flexibility": "",
+    "note": "This wand may have been one of the last wands Mr Ollivander sold before he disappeared in 1996.",
+    "image": "https://static.wikia.nocookie.net/harrypotter/images/f/f0/Neville%27s_wand.jpg/"
+  },{
+    "owner": "Peter Pettigrew",
+    "wood": "Chestnut",
+    "length": "9.25\"",
+    "core": "Dragon heartstring",
+    "flexibility": "Brittle",
+    "note": "This wand was owned by Pettigrew only since Ollivander had been kidnapped of 1996; passed into the possession of Ron Weasley after the Skirmish at Malfoy Manor in 1998.",
+    "image": "https://static.wikia.nocookie.net/harrypotter/images/8/8b/Pettigrews_wand_-_Noble_Collection.jpg.png"
+  },{
+    "owner": "Olympe Maxime",
+    "wood": "",
+    "length": "",
+    "core": "",
+    "flexibility": "",
+    "note": "Used during the Triwizard Tournament to display scores for the participants of the first task. Also used to cast Conjunctivitis Curses on Giants that had restrained Rubeus Hagrid.",
+    "image": ""
+  },{
+    "owner": "Quirinus Quirrell",
+    "wood": "Alder",
+    "length": "9\"",
+    "core": "",
+    "flexibility": "Bendy",
+    "note": "",
+    "image": ""
+  },{
+    "owner": "Remus Lupin",
+    "wood": "Cypress",
+    "length": "10.25\"",
+    "core": "Unicorn hair",
+    "flexibility": "Pliable",
+    "note": "Cypress wands are said to be well-matched to wizards who are self-sacrificing and willing to die a heroic death. Lupin spent the majority of his life alone to save others from having to deal with the consequences of his affliction, and died defending Hogwarts castle in the Battle of Hogwarts.",
+    "image": "https://static.wikia.nocookie.net/harrypotter/images/4/40/Remus_wand.jpg"
+  },{
+    "owner": "Ron Weasley",
+    "wood": "Chestnut",
+    "length": "9.25\"",
+    "core": "Dragon heartstring",
+    "flexibility": "Brittle",
+    "note": "This was Peter Pettigrew's wand. During the Skirmish at Malfoy Manor, Ron took this wand from Pettigrew and used from then on, as his own wand was taken by Snatchers.",
+    "image": "https://static.wikia.nocookie.net/harrypotter/images/8/8b/Pettigrews_wand_-_Noble_Collection.jpg.png"
+  },{
+    "owner": "Rubeus Hagrid",
+    "wood": "Oak",
+    "length": "16\"",
+    "core": "",
+    "flexibility": "Rather bendy",
+    "note": "This wand was snapped in half when Hagrid was expelled from Hogwarts during his third year — the pieces are certainly hidden in Hagrid's pink umbrella.",
+    "image": ""
+  },{
+    "owner": "Silvanus Kettleburn",
+    "wood": "Chestnut",
+    "length": "11.5\"",
+    "core": "Phoenix Feather",
+    "flexibility": "Whippy",
+    "note": "",
+    "image": ""
+  },{
+    "owner": "Tom Riddle",
+    "wood": "Yew",
+    "length": "13.5\"",
+    "core": "Phoenix Feather",
+    "flexibility": "",
+    "note": "This wand is \"brother\" to Harry Potter's wand — the core tail feathers are both from Fawkes.",
+    "image": "https://static.wikia.nocookie.net/harrypotter/images/1/13/Lord_Voldemort%27s_wand.jpg"
+  },{
+    "owner": "Viktor Krum",
+    "wood": "Hornbeam",
+    "length": "10.25\"",
+    "core": "Dragon heartstring",
+    "flexibility": "Quite Rigid",
+    "note": "This wand is thicker than usual, and made by Gregorovitch.",
+    "image": "https://static.wikia.nocookie.net/harrypotter/images/a/a3/ViktorKrumWand.jpg/"
+  },{
+    "owner": "Ginny Weasley",
+    "wood": "Yew",
+    "length": "",
+    "core": "",
+    "flexibility": "",
+    "note": "A yew wand was suited for a person who was a fierce protector of others. Protectiveness is an espect of Ginny's personality. She has frequently defended Harry Potter against others.",
+    "image": "https://static.wikia.nocookie.net/harrypotter/images/0/0c/Ginny%27s_wand.jpg/"
+  },{
+    "owner": "Sybill Trelawney",
+    "wood": "Hazel",
+    "length": "9.5\"",
+    "core": "Unicron hair",
+    "flexibility": "Very flexible",
+    "note": "This wand bore a resemblance to Sirius Black's wand, though there were slight differences. They both had a square-like handle and had magical runes depicted on the wand, but Trelawney's wand had a darker colour and had a swirly shape from the handle to the tip.",
+    "image": "https://static.wikia.nocookie.net/harrypotter/images/7/77/ProfSybilTrelawneyWandNN8254.jpg/"
+  },{
+    "owner": "Cho Chang",
+    "wood": "",
+    "length": "",
+    "core": "",
+    "flexibility": "",
+    "note": "Like most wizards and witches in Great Britain, she likely purchased it at the age of eleven from Garrick Ollivander before beginning her education at Hogwarts School of Witchcraft and Wizardry in 1990.",
+    "image": "https://static.wikia.nocookie.net/harrypotter/images/9/92/Cho_Chang_wand.png/"
+  },{
+    "owner": "Seamus Finnigan",
+    "wood": "",
+    "length": "",
+    "core": "",
+    "flexibility": "",
+    "note": "During the Battle of Hogwarts he successfully cast his fox patronus against approaching Dementors helping to protect Harry Potter.",
+    "image": "https://static.wikia.nocookie.net/harrypotter/images/7/7b/SeamusFinniganWandNN8276.jpg"
+  },{
+    "owner": "Arthur Weasley",
+    "wood": "",
+    "length": "",
+    "core": "",
+    "flexibility": "",
+    "note": "In 1992, Arthur used his wand to repair Harry Potter's glasses after a mishap with the Floo Network during a trip to Diagon Alley to buy school supplies, in which Harry ended up in the fireplace of Borgin and Burkes, Knockturn Alley.",
+    "image": "https://static.wikia.nocookie.net/harrypotter/images/5/57/Arthur_Weasley_wand.png/"
+  },{
+    "owner": "Molly Weasley",
+    "wood": "",
+    "length": "",
+    "core": "",
+    "flexibility": "",
+    "note": "Molly was been able to perform powerful magic with her wand, including being able to finish off and kill an incredibly powerful duellist and Dark witch, Bellatrix Lestrange, which she did in the Battle of Hogwarts in 1998.",
+    "image": "https://static.wikia.nocookie.net/harrypotter/images/6/6f/Molly_Weasley_wand.png"
+  },{
+    "owner": "Parvati Patel",
+    "wood": "",
+    "length": "",
+    "core": "",
+    "flexibility": "",
+    "note": "She used it during her time at Hogwarts School of Witchcraft and Wizardry. In 1995, Parvati used her wand to reduce a table to dust with the Reductor Curse, during a Dumbledore's Army meeting held in the Room of Requirement. She also used her wand during Battle of Hogwarts, where she used it to duel various Death Eaters.",
+    "image": "https://static.wikia.nocookie.net/harrypotter/images/4/40/ParvatiPatilWand.jpg/"
+  },{
+    "owner": "Oliver Wood",
+    "wood": "",
+    "length": "",
+    "core": "",
+    "flexibility": "",
+    "note": "On 2 May, 1998, Wood returned to fight in the Battle of Hogwarts alongside his former classmates and friends, against the Death Eaters and the Dark Forces which threatened their school. He therefore would have used his wand to duel against the Death Eaters.",
+    "image": "https://static.wikia.nocookie.net/harrypotter/images/b/bb/OliverWoodWandNN8258.jpg/"
+  },{
+    "owner": "Poppy Pomfrey",
+    "wood": "",
+    "length": "",
+    "core": "",
+    "flexibility": "",
+    "note": "In 1994, she used her wand to heal Harry Potter's wound sustained from a Hungarian Horntail dragon during the First Task of the Triwizard Tournament.",
+    "image": "https://static.wikia.nocookie.net/harrypotter/images/4/41/Poppy_Pomfrey%27s_Wand.jpg/"
+  },{
+    "owner": "Filius Flitwick",
+    "wood": "",
+    "length": "",
+    "core": "",
+    "flexibility": "",
+    "note": "In December 1991, Flitwick used this wand to decorate Christmas trees with golden bubbles.\nIn March of 1996, Flitwick used this wand to cast a Locomotion Charm on Sybill Trelawney's two trunks and help escort her back into the castle after Dolores Umbridge fired her.",
+    "image": "https://static.wikia.nocookie.net/harrypotter/images/c/ce/ProfFiliusFlitwickWandNN8262.jpg"
+  },
+  {
+    "owner": "Gregory Goyle",
+    "wood": "",
+    "length": "",
+    "core": "",
+    "flexibility": "",
+    "note": "In the 1992–1993 school year, Goyle sat in Transfiguration resting his head on his wand while Professor Minerva McGonagall told the class about how to transform animals into water goblets, with the spell Vera Verto.",
+    "image": "https://static.wikia.nocookie.net/harrypotter/images/c/c0/GregoryGoyleWandNN8266.jpg/"
+  },{
+    "owner": "Vincent Crabbe",
+    "wood": "",
+    "length": "",
+    "core": "",
+    "flexibility": "",
+    "note": "On 2 May 1998, it was destroyed when Crabbe unleashed Fiendfyre and lost control of it during the Skirmish at the Room of Requirement during the Battle of Hogwarts, killing him and destroying the wand in the cursed fire.",
+    "image": "https://static.wikia.nocookie.net/harrypotter/images/f/fa/VincentCrabbeWandNN8228.jpg"
+  },{
+    "owner": "Fred Weasley",
+    "wood": "",
+    "length": "",
+    "core": "",
+    "flexibility": "",
+    "note": "Fred was a powerful and gifted wizard along with his brother George, and could perform a wide variety of magic and spells with his wand, ranging from charms, transfiguration to martial magic. He could also produce a fully corporeal Patronus in the shape of a Magpie.",
+    "image": "https://static.wikia.nocookie.net/harrypotter/images/d/d1/Fred_weasley_wand.jpg/"
+  },{
+    "owner": "George Weasley",
+    "wood": "",
+    "length": "",
+    "core": "",
+    "flexibility": "",
+    "note": "George Weasley was a powerful and gifted wizard along with his brother Fred, and was able to perform a wide variety of magic with his wand, from charms, Transfiguration and martial magic. He was also capable of conjuring a fully corporeal Patronus in the form of a Magpie.",
+    "image": "https://static.wikia.nocookie.net/harrypotter/images/2/25/George_weasley_wand.jpg"
+  },{
+    "owner": "Percy Weasley",
+    "wood": "",
+    "length": "",
+    "core": "",
+    "flexibility": "",
+    "note": "He wielded his wand during the Battle of Hogwarts which he participated in on the 2 May 1998. During the first half of the battle, he transfigured Pius Thicknesse with the Sea urchin jinx, making spikes erupt out of him, causing the Imperiused Minister for Magic much discomfort and pain.",
+    "image": "https://static.wikia.nocookie.net/harrypotter/images/4/4a/Percy_Weasley%27s_wand.jpg"
+  },{
+    "owner": "William Weasley",
+    "wood": "",
+    "length": "",
+    "core": "",
+    "flexibility": "",
+    "note": "Bill used this wand while working as a Curse-Breaker in Egypt, whilst working at Gringotts, and during many confrontations of the Second Wizarding War.",
+    "image": "https://static.wikia.nocookie.net/harrypotter/images/9/91/Bill_Weasley_wand.p"
+  },{
+    "owner": "Pomona Sprout",
+    "wood": "",
+    "length": "",
+    "core": "",
+    "flexibility": "",
+    "note": "In the first third year Herbology lesson of the 1986–1987 school year, Sprout used her wand to cast the Boggart-Banishing Spell to repel a Boggart that had turned into the form of a werewolf for Penny Haywood in the Herbology Classroom, turning it into a harmless toy wolf.",
+    "image": "https://static.wikia.nocookie.net/harrypotter/images/f/ff/Pomona_Sprout%27s_wand_-_Noble_Collection.jpg/"
+  },{
+    "owner": "Sirius Black",
+    "wood": "",
+    "length": "",
+    "core": "",
+    "flexibility": "",
+    "note": "Sirius was able to perform powerful magic with this wand, such as casting nonverbal spells. He also wielded this wand during the Battle of the Department of Mysteries in 1996. The wand probably died with him as he held it when he fell through the Veil in the Death Chamber.",
+    "image": "https://static.wikia.nocookie.net/harrypotter/images/9/9e/Sirius_Black_wand.png/"
+  },{
+    "owner": "Severus Snape",
+    "wood": "",
+    "length": "",
+    "core": "",
+    "flexibility": "",
+    "note": "During his years as Hogwarts student, he became an incredibly skilful and powerful wizard, managing to create several spells of his own invention, many of which were dark charms, such as the highly dangerous curse Sectumsempra.",
+    "image": "https://static.wikia.nocookie.net/harrypotter/images/3/30/Severus_Snape_wand.png"
+  }
+]

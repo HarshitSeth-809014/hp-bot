@@ -10,9 +10,11 @@ STUDENTS_API = json.loads(requests.get('https://hp-api.onrender.com/api/characte
 PROFESSORS_API = json.loads(requests.get('https://hp-api.onrender.com/api/characters/staff').text)
 with open('./data/broomsticks.json', 'r') as f:
     BROOMSTICK_API = json.load(f)
+with open('./data/wands_by_name.json', 'r') as f:
+    WANDS_NAME_API = json.load(f)
 
 
-async def create_embed(api, message, check):
+async def create_embed(api, message: nextcord.Interaction, check: str):
     for val in api:
         if val['name'].lower() == check.lower():
             embed = nextcord.Embed(title=val['name'])
@@ -35,13 +37,28 @@ async def create_embed(api, message, check):
             if val['gender']:
                 embed.add_field(name="Gender", value=val['gender'], inline=True)
 
-
             await message.response.send_message(embed=embed)
     await message.response.send_message("Name not found!!! Try Again")
 
 
-async def wand_information(message, wand):
-    await message.response.send_message(f'all {wand} information')
+async def wand_information(message: nextcord.Interaction, wand: str):
+    for val in WANDS_NAME_API:
+        if val['owner'].lower() == wand.lower():
+            embed = nextcord.Embed(title=f"{val['owner']}'s wand")
+            if val['note']:
+                embed.description = val['note']
+            if val['wood']:
+                embed.add_field(name="Wood", value=val['wood'])
+            if val['core']:
+                embed.add_field(name="Core", value=val['core'])
+            if val['length']:
+                embed.add_field(name="Length", value=val['length'])
+            if val['flexibility']:
+                embed.add_field(name="Flexibility", value=val['flexibility'])
+            if val['image']:
+                embed.set_image(url=val['image'])
+            await message.response.send_message(embed=embed)
+    await message.response.send_message("Wand not found!!! Try again.")
 
 
 async def professors_character_information(message, professor):
@@ -59,13 +76,14 @@ async def any_character_information(message, character):
 async def spell_information(message, spell):
     for val in SPELL_API:
         if spell == val['name'].lower():
-            await message.response_send_message(f'Spell: ```{val["name"]}```\nUse: ```{val["description"]}```')
+            await message.response.send_message(embed=discord.Embed(title=val['name'], description=val['description']))
+    await message.response.send_message('Spell not found!!! Try again.')
 
 
-async def broomsticks_information(message, broomstick):
+async def broomsticks_information(message: nextcord.Interaction, broomstick):
     for val in BROOMSTICK_API:
         if val['name'].lower() == broomstick.lower():
-            embed = discord.Embed(title=val['name'], description=val['description'])
+            embed = nextcord.Embed(title=val['name'], description=val['description'])
             if val['image']:
                 embed.set_image(url=val['image'])
             await message.response.send_message(embed=embed)
