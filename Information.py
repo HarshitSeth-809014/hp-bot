@@ -1,6 +1,5 @@
 import json
 
-import discord
 import requests
 import nextcord
 
@@ -12,12 +11,14 @@ with open('./data/broomsticks.json', 'r') as f:
     BROOMSTICK_API = json.load(f)
 with open('./data/wands_by_name.json', 'r') as f:
     WANDS_NAME_API = json.load(f)
+with open('./data/books.json', 'r') as f:
+    BOOKS_API = json.load(f)
 
 
 async def create_embed(api, message: nextcord.Interaction, check: str):
     for val in api:
         if val['name'].lower() == check.lower():
-            embed = nextcord.Embed(title=val['name'])
+            embed = nextcord.Embed(title=val['name'], colour=nextcord.Color.from_rgb(242, 94, 61))
             if val['image']:
                 embed.set_image(url=val['image'])
             if val['house']:
@@ -44,7 +45,7 @@ async def create_embed(api, message: nextcord.Interaction, check: str):
 async def wand_information(message: nextcord.Interaction, wand: str):
     for val in WANDS_NAME_API:
         if val['owner'].lower() == wand.lower():
-            embed = nextcord.Embed(title=f"{val['owner']}'s wand")
+            embed = nextcord.Embed(title=f"{val['owner']}'s wand", colour=nextcord.Color.from_rgb(242, 94, 61))
             if val['note']:
                 embed.description = val['note']
             if val['wood']:
@@ -76,15 +77,42 @@ async def any_character_information(message, character):
 async def spell_information(message, spell):
     for val in SPELL_API:
         if spell == val['name'].lower():
-            await message.response.send_message(embed=discord.Embed(title=val['name'], description=val['description']))
+            await message.response.send_message(embed=nextcord.Embed(title=val['name'], description=val['description'], colour=nextcord.Color.from_rgb(242, 94, 61)))
     await message.response.send_message('Spell not found!!! Try again.')
 
 
 async def broomsticks_information(message: nextcord.Interaction, broomstick):
     for val in BROOMSTICK_API:
         if val['name'].lower() == broomstick.lower():
-            embed = nextcord.Embed(title=val['name'], description=val['description'])
+            embed = nextcord.Embed(title=val['name'], description=val['description'], colour=nextcord.Color.from_rgb(242, 94, 61))
             if val['image']:
                 embed.set_image(url=val['image'])
             await message.response.send_message(embed=embed)
     await message.response.send_message('Broomstick not found!!! Try again.')
+
+
+async def books_information(message: nextcord.Interaction, id_book):
+    for val in BOOKS_API:
+        if id_book == val['id']:
+            embed = nextcord.Embed(title=val['title'], description=val['description'],
+                                   colour=nextcord.Color.from_rgb(242, 94, 61))
+            embed.add_field(name="Release Date:", value=val['releaseDay'])
+            embed.add_field(name="Author:", value=val['author'])
+
+            await message.response.send_message(embed=embed)
+
+
+async def all_books(message: nextcord.Interaction):
+    embed = nextcord.Embed(title="Books", description="Please refer to a particular book by id.\n",
+                           colour=nextcord.Color.from_rgb(242, 94, 61))
+    embed.add_field(name="Harry Potter and the Sorcerer's Stone", value="ID: 1")
+    embed.add_field(name="Harry Potter and the chamber of secrets", value="ID: 2")
+    embed.add_field(name="Harry Potter and the Prisoner of Azkaban", value="ID: 3")
+    embed.add_field(name="Harry Potter and the Goblet of Fire", value="ID: 4")
+    embed.add_field(name="Harry Potter and the Order of the Phoenix", value="ID: 5")
+    embed.add_field(name="Harry Potter and the Half-Blood Prince", value="ID: 6")
+    embed.add_field(name="Harry Potter and the Deathly Hallows", value="ID: 7")
+    embed.add_field(name="Harry Potter and the Cursed Child", value="ID: 8")
+
+    await message.response.send_message(embed=embed)
+

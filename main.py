@@ -1,6 +1,7 @@
 import os
 
 import nextcord
+from nextcord import SlashOption
 from nextcord.ext import commands
 from typing import Optional
 
@@ -54,6 +55,15 @@ async def wand(message: nextcord.Interaction, owner):
                                   "Harry Potter Novel Series", guild_ids=[1057997352926986260])
 async def broomstick(message: nextcord.Interaction, name):
     await Information.broomsticks_information(message, name)
+
+
+@client.slash_command(description="Will give you information about any book related to Harry Potter",
+                      guild_ids=[1057997352926986260])
+async def book(message: nextcord.Interaction, id: Optional[int] = SlashOption(required=False)):
+    if id is None:
+        await Information.all_books(message)
+    elif id:
+        await Information.books_information(message, id)
 
 
 client.run(TOKEN)
