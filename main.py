@@ -41,19 +41,19 @@ async def student(message: nextcord.Interaction, name):
 
 
 @client.slash_command(description="Will give you information about any Spell used in "
-                                  "Harry Potter Novel Series"])
+                                  "Harry Potter Novel Series")
 async def spell(message: nextcord.Interaction, name):
     await Information.spell_information(message, name)
 
 
 @client.slash_command(description="Will give you information about any Wand present in "
-                                  "Harry Potter Novel Series"])
+                                  "Harry Potter Novel Series")
 async def wand(message: nextcord.Interaction, owner):
     await Information.wand_information(message, owner)
 
 
 @client.slash_command(description="Will give you information about any Broomstick present in "
-                                  "Harry Potter Novel Series"])
+                                  "Harry Potter Novel Series")
 async def broomstick(message: nextcord.Interaction, name):
     await Information.broomsticks_information(message, name)
 
