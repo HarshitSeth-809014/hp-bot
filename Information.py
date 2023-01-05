@@ -77,14 +77,16 @@ async def any_character_information(message, character):
 async def spell_information(message, spell):
     for val in SPELL_API:
         if spell == val['name'].lower():
-            await message.response.send_message(embed=nextcord.Embed(title=val['name'], description=val['description'], colour=nextcord.Color.from_rgb(242, 94, 61)))
+            await message.response.send_message(embed=nextcord.Embed(title=val['name'], description=val['description'],
+                                                                     colour=nextcord.Color.from_rgb(242, 94, 61)))
     await message.response.send_message('Spell not found!!! Try again.')
 
 
 async def broomsticks_information(message: nextcord.Interaction, broomstick):
     for val in BROOMSTICK_API:
         if val['name'].lower() == broomstick.lower():
-            embed = nextcord.Embed(title=val['name'], description=val['description'], colour=nextcord.Color.from_rgb(242, 94, 61))
+            embed = nextcord.Embed(title=val['name'], description=val['description'],
+                                   colour=nextcord.Color.from_rgb(242, 94, 61))
             if val['image']:
                 embed.set_image(url=val['image'])
             await message.response.send_message(embed=embed)
@@ -100,19 +102,3 @@ async def books_information(message: nextcord.Interaction, id_book):
             embed.add_field(name="Author:", value=val['author'])
 
             await message.response.send_message(embed=embed)
-
-
-async def all_books(message: nextcord.Interaction):
-    embed = nextcord.Embed(title="Books", description="Please refer to a particular book by id.\n",
-                           colour=nextcord.Color.from_rgb(242, 94, 61))
-    embed.add_field(name="Harry Potter and the Sorcerer's Stone", value="ID: 1")
-    embed.add_field(name="Harry Potter and the chamber of secrets", value="ID: 2")
-    embed.add_field(name="Harry Potter and the Prisoner of Azkaban", value="ID: 3")
-    embed.add_field(name="Harry Potter and the Goblet of Fire", value="ID: 4")
-    embed.add_field(name="Harry Potter and the Order of the Phoenix", value="ID: 5")
-    embed.add_field(name="Harry Potter and the Half-Blood Prince", value="ID: 6")
-    embed.add_field(name="Harry Potter and the Deathly Hallows", value="ID: 7")
-    embed.add_field(name="Harry Potter and the Cursed Child", value="ID: 8")
-
-    await message.response.send_message(embed=embed)
-

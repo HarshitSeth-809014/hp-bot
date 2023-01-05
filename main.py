@@ -5,6 +5,7 @@ from nextcord import SlashOption
 from nextcord.ext import commands
 from typing import Optional
 
+import Help
 import Information
 from dotenv import load_dotenv
 
@@ -59,11 +60,15 @@ async def broomstick(message: nextcord.Interaction, name):
 
 @client.slash_command(description="Will give you information about any book related to Harry Potter",
                       guild_ids=[1057997352926986260])
-async def book(message: nextcord.Interaction, id: Optional[int] = SlashOption(required=False)):
-    if id is None:
-        await Information.all_books(message)
-    elif id:
-        await Information.books_information(message, id)
+async def book(message: nextcord.Interaction, id: int):
+    await Information.books_information(message, id)
+
+
+@client.slash_command(description="Name the command like "
+                                  "'book', 'broomstick', 'character', 'professor', 'spell', 'student' and 'wand'",
+                      guild_ids=[1057997352926986260])
+async def help(message, command: str):
+    await Help.all_help(message=message, com=command)
 
 
 client.run(TOKEN)
