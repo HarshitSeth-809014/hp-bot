@@ -64,7 +64,7 @@ async def book(message: nextcord.Interaction, id: int):
 
 
 @client.slash_command(description="Name the command like "
-                                  "'book', 'broomstick', 'character', 'professor', 'spell', 'student' and 'wand'", guild_ids=[897737630064721930])
+                                  "'book', 'broomstick', 'character', 'professor', 'spell', 'student' and 'wand'", guild_ids=[976161694248235070])
 async def help(message, command: str):
     await Help.all_help(message=message, com=command)
 
